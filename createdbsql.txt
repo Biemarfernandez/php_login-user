@@ -1,0 +1,11 @@
+CREAR UN DB SQL
+
+1: Activar control de panel XAMPP
+
+2: Luego dirirse al link:  http://localhost/phpmyadmin/
+
+3: Crear nueva darle click
+
+4: CREAR BD MANUALMENTE Y DARLE CLCIK CREAR
+
+5: TODO LO QUE PIDE, ETC
