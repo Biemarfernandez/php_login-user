@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="css/foundation.min.css">
+      <link type="text/css" rel="stylesheet" href="css/form.css"  media="screen,projection"/>
+      <title>Formulario</title>
+    </head>
+
+    <body>
+      <div class="main">
+        <div class="login-container">
+         <a href="index.html"><i class="material-icons rightIcon">close</i></a>
+         <div class="callout primary login">
+          <h4>Registro</h4>
+           <form id="formulario">
+            <div class="row align-center">
+              <div class="small-12 columns">
+                <label for="nombre"></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre Usuario" required>
+              </div>
+              <div class="small-12 columns">
+                <label for="email"></label>
+                <input id="email" type="email" name="email_usuario" placeholder="Email" required>
+              </div>
+              <div class="small-12 columns">
+                <label for="password"></label>
+                 <input type="password" id="password" name="password" placeholder="password" required>
+              </div>
+              <div class="small-12 columns">
+                <label for="passwordRepeat"></label>
+                <input type="password" id="passwordRepeat" placeholder="Repetir password" required>
+              </div>
+              <div class="input-field col s6">
+                <input id="masculino" name="sexo" type="radio" value="masculino">
+                <label for="masculino">Masculino</label>
+             </div>
+             <div class="input-field col s6">
+                <input id="femenino" name="sexo" type="radio" value="femenino">
+                <label for="femenino" >Femenino</label>
+             </div>
+             <div class="divider"></div>
+             <div class="small-12 columns">
+               <button type="submit" class="button btnClass">Registro</button>
+            </div>
+           </div>
+          </form>
+         </div>
+        </div>
+       </div>
+       <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+       crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="js/form.js"></script>
+    </body>
+  </html>
